@@ -1,0 +1,8 @@
+bike1 = color:"Rojo", type:"Montaña", wear:20;
+bike2 = color:"Azul", type:"Ruta", wear:10;
+print {bike1};
+distance {bike1, 50};
+maintenance {bike2, 500};
+inventory {bike1};
+owner {bike1, "Carlos"};
+list_inventory;
